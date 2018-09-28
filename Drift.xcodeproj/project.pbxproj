@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		EA503079215E2BE700438B31 /* Drift-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = EA50307C215E2BE700438B31 /* Build configuration list for PBXAggregateTarget "Drift-universal" */;
+			buildPhases = (
+				EA50307F215E2BF600438B31 /* ShellScript */,
+			);
+			dependencies = (
+				EA5030E5215E2C3100438B31 /* PBXTargetDependency */,
+			);
+			name = "Drift-universal";
+			productName = "Drift-universal";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		1A30BE635C2A942A8D04344D /* Pods_DriftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 376DB1A9D502953CD6D8325F /* Pods_DriftTests.framework */; };
 		2CF43EA31C7E045F008E6748 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF43EA21C7E045F008E6748 /* ColorPalette.swift */; };
@@ -100,6 +115,94 @@
 		A8F589A31D478F0A0043DB8D /* ConversationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F589A11D478F0A0043DB8D /* ConversationListTableViewCell.swift */; };
 		A8F589A41D478F0A0043DB8D /* ConversationListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F589A21D478F0A0043DB8D /* ConversationListTableViewCell.xib */; };
 		DE4BB2DAEE68729ECCFBF587 /* Pods_Drift_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D067B1B1C2147D16643E68C /* Pods_Drift_SDK.framework */; };
+		EA503083215E2C2200438B31 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBABB51C7CD6210014768A /* ColorHelper.swift */; };
+		EA503084215E2C2200438B31 /* SocketManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635462E71EDF0F2B0012358E /* SocketManager.swift */; };
+		EA503085215E2C2200438B31 /* OpenHours.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E5A4721EF02FAB00113113 /* OpenHours.swift */; };
+		EA503086215E2C2200438B31 /* CampaignResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633920CF1C62514F00C3A3C2 /* CampaignResponseManager.swift */; };
+		EA503087215E2C2200438B31 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8B6FBAE1DE74631002F2321 /* ImageManager.swift */; };
+		EA503088215E2C2200438B31 /* CampaignWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87272101EEAE16700A476FB /* CampaignWrapper.swift */; };
+		EA503089215E2C2200438B31 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85387191D4A8EAE00C1D3C1 /* ConversationViewController.swift */; };
+		EA50308A215E2C2200438B31 /* ConversationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85387141D4A4F5100C1D3C1 /* ConversationListViewController.swift */; };
+		EA50308B215E2C2200438B31 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77E91F55A72300A05094 /* Push.swift */; };
+		EA50308C215E2C2200438B31 /* Inbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80A64451D46655900A41A41 /* Inbox.swift */; };
+		EA50308D215E2C2200438B31 /* AnnouncementExpandedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63359F9C1C774C22007321DA /* AnnouncementExpandedView.swift */; };
+		EA50308E215E2C2200438B31 /* CampaignsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630205171C52A24E00C02F5E /* CampaignsManager.swift */; };
+		EA50308F215E2C2200438B31 /* EnrichedConversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88682DC1EE982D600E396D8 /* EnrichedConversation.swift */; };
+		EA503090215E2C2200438B31 /* NewMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306F41F1D6379CC00722D15 /* NewMessageView.swift */; };
+		EA503091215E2C2200438B31 /* Embed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302051B1C52AD7900C02F5E /* Embed.swift */; };
+		EA503092215E2C2200438B31 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77E71F55A72300A05094 /* Channel.swift */; };
+		EA503093215E2C2200438B31 /* DriftDateTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80A64411D46534D00A41A41 /* DriftDateTransformer.swift */; };
+		EA503094215E2C2200438B31 /* CampaignMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63356A491C529C760064F652 /* CampaignMessage.swift */; };
+		EA503095215E2C2200438B31 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77EA1F55A72300A05094 /* Response.swift */; };
+		EA503096215E2C2200438B31 /* AnnouncementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E89661C57B9AC00195062 /* AnnouncementView.swift */; };
+		EA503097215E2C2200438B31 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DECB331DF9AE5F00CE008D /* Context.swift */; };
+		EA503098215E2C2200438B31 /* ConversationListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F589A11D478F0A0043DB8D /* ConversationListTableViewCell.swift */; };
+		EA503099215E2C2200438B31 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BC1BAC1DDCB0DE0049968E /* GradientView.swift */; };
+		EA50309A215E2C2200438B31 /* AvatarImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E705821EF815C500BC1429 /* AvatarImage.swift */; };
+		EA50309B215E2C2200438B31 /* ConversationMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7057F1EF80BC700BC1429 /* ConversationMessageTableViewCell.swift */; };
+		EA50309C215E2C2200438B31 /* MeetingMessageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F2B62202C8D7200D675B7 /* MeetingMessageTableViewCell.swift */; };
+		EA50309D215E2C2200438B31 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80A64471D4665E500A41A41 /* Conversation.swift */; };
+		EA50309E215E2C2200438B31 /* Drift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63356A411C529C610064F652 /* Drift.swift */; };
+		EA50309F215E2C2200438B31 /* Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F9BF0F206EC28100671B22 /* Campaign.swift */; };
+		EA5030A0215E2C2200438B31 /* OpenHoursHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E705761EF28D6C00BC1429 /* OpenHoursHelpers.swift */; };
+		EA5030A1215E2C2200438B31 /* SocketAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635462E91EDF204E0012358E /* SocketAuth.swift */; };
+		EA5030A2215E2C2200438B31 /* CampaignView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633920D41C62879100C3A3C2 /* CampaignView.swift */; };
+		EA5030A3215E2C2200438B31 /* ConversationInputTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635977B0201F6B3500333774 /* ConversationInputTextView.swift */; };
+		EA5030A4215E2C2200438B31 /* ColorPalette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF43EA21C7E045F008E6748 /* ColorPalette.swift */; };
+		EA5030A5215E2C2200438B31 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63BBABB31C7C9D850014768A /* ErrorManager.swift */; };
+		EA5030A6215E2C2200438B31 /* DriftPreviewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EC66F02024F463003CB5FC /* DriftPreviewItem.swift */; };
+		EA5030A7215E2C2200438B31 /* DriftAPIURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635462E41EDF0C0B0012358E /* DriftAPIURLRouter.swift */; };
+		EA5030A8215E2C2200438B31 /* AttachmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E705851EF8192500BC1429 /* AttachmentCollectionViewCell.swift */; };
+		EA5030A9215E2C2200438B31 /* CTA.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63356A481C529C760064F652 /* CTA.swift */; };
+		EA5030AA215E2C2200438B31 /* ScheduleMeetingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E62482028B8DD001EA5EC /* ScheduleMeetingViewController.swift */; };
+		EA5030AB215E2C2200438B31 /* UserAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E624C2028F15F001EA5EC /* UserAvailability.swift */; };
+		EA5030AC215E2C2200438B31 /* TopController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638730991C7E85EF00105867 /* TopController.swift */; };
+		EA5030AD215E2C2200438B31 /* TextHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632EC94A2023401100761E72 /* TextHelper.swift */; };
+		EA5030AE215E2C2200438B31 /* InboxManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80A64431D465E4800A41A41 /* InboxManager.swift */; };
+		EA5030AF215E2C2200438B31 /* DriftManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630205191C52AC5100C02F5E /* DriftManager.swift */; };
+		EA5030B0215E2C2200438B31 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F95DBE1C5B8676003BCEE0 /* Auth.swift */; };
+		EA5030B1215E2C2200438B31 /* MessageRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632E624E202A1C08001EA5EC /* MessageRequest.swift */; };
+		EA5030B2215E2C2200438B31 /* ConversationsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88682DA1EE9791B00E396D8 /* ConversationsManager.swift */; };
+		EA5030B3215E2C2200438B31 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6306F42D1D63E68800722D15 /* UserManager.swift */; };
+		EA5030B4215E2C2200438B31 /* AppointmentInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F2B60202B707B00D675B7 /* AppointmentInformation.swift */; };
+		EA5030B5215E2C2200438B31 /* DriftDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6329CAC41C5A91310059C678 /* DriftDataStore.swift */; };
+		EA5030B6215E2C2200438B31 /* Presence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77E81F55A72300A05094 /* Presence.swift */; };
+		EA5030B7215E2C2200438B31 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A80A64491D46671B00A41A41 /* Message.swift */; };
+		EA5030B8215E2C2200438B31 /* NibLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E89681C57C77300195062 /* NibLoader.swift */; };
+		EA5030B9215E2C2200438B31 /* Socket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492F77EB1F55A72300A05094 /* Socket.swift */; };
+		EA5030BA215E2C2200438B31 /* PresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E89611C57944400195062 /* PresentationManager.swift */; };
+		EA5030BB215E2C2200438B31 /* PreMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632EC9482023307400761E72 /* PreMessage.swift */; };
+		EA5030BC215E2C2200438B31 /* UIDevice+ModelName.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8DECB351DF9B5BF00CE008D /* UIDevice+ModelName.swift */; };
+		EA5030BD215E2C2200438B31 /* ConnectionBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7057A1EF4051F00BC1429 /* ConnectionBarView.swift */; };
+		EA5030BE215E2C2200438B31 /* ConversationEmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6ADEC1D632CD10024CFDC /* ConversationEmptyStateView.swift */; };
+		EA5030BF215E2C2200438B31 /* AnnouncementAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63356A471C529C760064F652 /* AnnouncementAttributes.swift */; };
+		EA5030C0215E2C2200438B31 /* MessageTableHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A83E41661D50D20800B4EA35 /* MessageTableHeaderView.swift */; };
+		EA5030C1215E2C2200438B31 /* DriftDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86A47241D50D53F008C59C0 /* DriftDateFormatter.swift */; };
+		EA5030C2215E2C2200438B31 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A82CCE0D1D4B731A0043D3C2 /* Attachment.swift */; };
+		EA5030C3215E2C2200438B31 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6302051D1C56739000C02F5E /* User.swift */; };
+		EA5030C4215E2C2200438B31 /* ReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E705781EF2C77900BC1429 /* ReachabilityManager.swift */; };
+		EA5030C5215E2C2200438B31 /* GoogleMeeting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 633F2B5E202B60A100D675B7 /* GoogleMeeting.swift */; };
+		EA5030C6215E2C2200438B31 /* ConversationInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EC1F42018BA670020DF97 /* ConversationInputAccessoryView.swift */; };
+		EA5030C7215E2C2200438B31 /* DriftAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635462E31EDF0C0B0012358E /* DriftAPIManager.swift */; };
+		EA5030C9215E2C2200438B31 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B6FBB21DE74AAB002F2321 /* Alamofire.framework */; };
+		EA5030CA215E2C2200438B31 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8B6FBB01DE74A9A002F2321 /* AlamofireImage.framework */; };
+		EA5030CB215E2C2200438B31 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82CF5671D42585D00D570FF /* ObjectMapper.framework */; };
+		EA5030CC215E2C2200438B31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63356A531C52A0D20064F652 /* UIKit.framework */; };
+		EA5030CD215E2C2200438B31 /* Pods_Drift_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D067B1B1C2147D16643E68C /* Pods_Drift_SDK.framework */; };
+		EA5030CF215E2C2200438B31 /* Drift.h in Headers */ = {isa = PBXBuildFile; fileRef = 63356A3D1C529C530064F652 /* Drift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5030D1215E2C2200438B31 /* DriftImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CF43EA61C7E056F008E6748 /* DriftImages.xcassets */; };
+		EA5030D2215E2C2200438B31 /* AttachmentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E705841EF8192500BC1429 /* AttachmentCollectionViewCell.xib */; };
+		EA5030D3215E2C2200438B31 /* MeetingMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 633F2B63202C8D7200D675B7 /* MeetingMessageTableViewCell.xib */; };
+		EA5030D4215E2C2200438B31 /* ConversationEmptyStateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8C6ADEE1D632CED0024CFDC /* ConversationEmptyStateView.xib */; };
+		EA5030D5215E2C2200438B31 /* AnnouncementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 630E89641C57B99000195062 /* AnnouncementView.xib */; };
+		EA5030D6215E2C2200438B31 /* ScheduleMeetingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 632E624A2028B933001EA5EC /* ScheduleMeetingViewController.xib */; };
+		EA5030D7215E2C2200438B31 /* AnnouncementExpandedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63359F9E1C774C31007321DA /* AnnouncementExpandedView.xib */; };
+		EA5030D8215E2C2200438B31 /* ConversationListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A85387151D4A4F5100C1D3C1 /* ConversationListViewController.xib */; };
+		EA5030D9215E2C2200438B31 /* MessageTableHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A83E41651D50D20800B4EA35 /* MessageTableHeaderView.xib */; };
+		EA5030DA215E2C2200438B31 /* ConversationListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8F589A21D478F0A0043DB8D /* ConversationListTableViewCell.xib */; };
+		EA5030DB215E2C2200438B31 /* ConnectionBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E7057C1EF4054000BC1429 /* ConnectionBarView.xib */; };
+		EA5030DC215E2C2200438B31 /* NewMessageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6306F4201D6379CC00722D15 /* NewMessageView.xib */; };
+		EA5030DD215E2C2200438B31 /* ConversationMessageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A8E7057E1EF80BC700BC1429 /* ConversationMessageTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,10 +213,27 @@
 			remoteGlobalIDString = 634950D31C511A410097C474;
 			remoteInfo = Driftt;
 		};
+		EA5030E4215E2C3100438B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 634950CB1C511A410097C474 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA503080215E2C2200438B31;
+			remoteInfo = Drift;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		634951201C511D5A0097C474 /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5030DE215E2C2200438B31 /* Copy Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -231,6 +351,8 @@
 		A8F589A21D478F0A0043DB8D /* ConversationListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ConversationListTableViewCell.xib; path = "Drift/UI/Conversation List View/List View Cell/ConversationListTableViewCell.xib"; sourceTree = SOURCE_ROOT; };
 		B830EE3166A8EBB93E22850F /* Pods-DriftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DriftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DriftTests/Pods-DriftTests.release.xcconfig"; sourceTree = "<group>"; };
 		D05CA385937F3836AC8E1B8A /* Pods-Drift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Drift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Drift/Pods-Drift.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5030E2215E2C2200438B31 /* Drift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Drift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5030E3215E2C2200438B31 /* Drift-SDK copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Drift-SDK copy-Info.plist"; path = "/Users/marek/Workspace/DayOne/external/drift-sdk-ios/Drift-SDK copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +374,18 @@
 			files = (
 				634950DF1C511A410097C474 /* Drift.framework in Frameworks */,
 				1A30BE635C2A942A8D04344D /* Pods_DriftTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5030C8215E2C2200438B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5030C9215E2C2200438B31 /* Alamofire.framework in Frameworks */,
+				EA5030CA215E2C2200438B31 /* AlamofireImage.framework in Frameworks */,
+				EA5030CB215E2C2200438B31 /* ObjectMapper.framework in Frameworks */,
+				EA5030CC215E2C2200438B31 /* UIKit.framework in Frameworks */,
+				EA5030CD215E2C2200438B31 /* Pods_Drift_SDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +503,7 @@
 				634950D51C511A410097C474 /* Products */,
 				74DE7736A181ADE78FB587A2 /* Frameworks */,
 				BDA453BC1886AFB2D80A1EF0 /* Pods */,
+				EA5030E3215E2C2200438B31 /* Drift-SDK copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -377,6 +512,7 @@
 			children = (
 				634950D41C511A410097C474 /* Drift.framework */,
 				634950DE1C511A410097C474 /* DriftTests.xctest */,
+				EA5030E2215E2C2200438B31 /* Drift.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -528,6 +664,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA5030CE215E2C2200438B31 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5030CF215E2C2200438B31 /* Drift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -571,6 +715,26 @@
 			productReference = 634950DE1C511A410097C474 /* DriftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		EA503080215E2C2200438B31 /* Drift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5030DF215E2C2200438B31 /* Build configuration list for PBXNativeTarget "Drift" */;
+			buildPhases = (
+				EA503081215E2C2200438B31 /* [CP] Check Pods Manifest.lock */,
+				EA503082215E2C2200438B31 /* Sources */,
+				EA5030C8215E2C2200438B31 /* Frameworks */,
+				EA5030CE215E2C2200438B31 /* Headers */,
+				EA5030D0215E2C2200438B31 /* Resources */,
+				EA5030DE215E2C2200438B31 /* Copy Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Drift;
+			productName = Driftt;
+			productReference = EA5030E2215E2C2200438B31 /* Drift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -590,6 +754,11 @@
 						LastSwiftMigration = 1000;
 						ProvisioningStyle = Manual;
 					};
+					EA503079215E2BE700438B31 = {
+						CreatedOnToolsVersion = 10.0;
+						DevelopmentTeam = 8LD58S2TL7;
+						ProvisioningStyle = Automatic;
+					};
 				};
 			};
 			buildConfigurationList = 634950CE1C511A410097C474 /* Build configuration list for PBXProject "Drift" */;
@@ -604,8 +773,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				EA503080215E2C2200438B31 /* Drift */,
 				634950D31C511A410097C474 /* Drift-SDK */,
 				634950DD1C511A410097C474 /* DriftTests */,
+				EA503079215E2BE700438B31 /* Drift-universal */,
 			);
 		};
 /* End PBXProject section */
@@ -638,10 +809,66 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA5030D0215E2C2200438B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5030D1215E2C2200438B31 /* DriftImages.xcassets in Resources */,
+				EA5030D2215E2C2200438B31 /* AttachmentCollectionViewCell.xib in Resources */,
+				EA5030D3215E2C2200438B31 /* MeetingMessageTableViewCell.xib in Resources */,
+				EA5030D4215E2C2200438B31 /* ConversationEmptyStateView.xib in Resources */,
+				EA5030D5215E2C2200438B31 /* AnnouncementView.xib in Resources */,
+				EA5030D6215E2C2200438B31 /* ScheduleMeetingViewController.xib in Resources */,
+				EA5030D7215E2C2200438B31 /* AnnouncementExpandedView.xib in Resources */,
+				EA5030D8215E2C2200438B31 /* ConversationListViewController.xib in Resources */,
+				EA5030D9215E2C2200438B31 /* MessageTableHeaderView.xib in Resources */,
+				EA5030DA215E2C2200438B31 /* ConversationListTableViewCell.xib in Resources */,
+				EA5030DB215E2C2200438B31 /* ConnectionBarView.xib in Resources */,
+				EA5030DC215E2C2200438B31 /* NewMessageView.xib in Resources */,
+				EA5030DD215E2C2200438B31 /* ConversationMessageTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
 		A99DC3508C7DE9FC0A16003C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Drift-SDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA50307F215E2BF600438B31 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "UNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Next, work out if we're in SIM or DEVICE\nxcodebuild -target \"${PROJECT_NAME}\" -configuration ${CONFIGURATION} -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean archive\nxcodebuild -target \"${PROJECT_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean archive\n\nBUILD_PRODUCTS=\"${SYMROOT}\"\n\n# Step 2. Copy the framework structure (from iphoneos build) to the universal folder\ncp -R \"${BUILD_DIR}/Debug-iphonesimulator/\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n\nfor f in ${BUILD_DIR}/${CONFIGURATION}-iphoneos/*.framework\ndo\nfolder=$(basename \"$f\")\nname=\"${folder%.framework}\"\necho \"Merging binaries for: $folder $name\"\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/${folder}/\" \"${BUILD_PRODUCTS}/Debug-iphonesimulator/${folder}/${name}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${folder}/${name}\"\ndone\n\nopen \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n";
+		};
+		EA503081215E2C2200438B31 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -792,6 +1019,82 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EA503082215E2C2200438B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA503083215E2C2200438B31 /* ColorHelper.swift in Sources */,
+				EA503084215E2C2200438B31 /* SocketManager.swift in Sources */,
+				EA503085215E2C2200438B31 /* OpenHours.swift in Sources */,
+				EA503086215E2C2200438B31 /* CampaignResponseManager.swift in Sources */,
+				EA503087215E2C2200438B31 /* ImageManager.swift in Sources */,
+				EA503088215E2C2200438B31 /* CampaignWrapper.swift in Sources */,
+				EA503089215E2C2200438B31 /* ConversationViewController.swift in Sources */,
+				EA50308A215E2C2200438B31 /* ConversationListViewController.swift in Sources */,
+				EA50308B215E2C2200438B31 /* Push.swift in Sources */,
+				EA50308C215E2C2200438B31 /* Inbox.swift in Sources */,
+				EA50308D215E2C2200438B31 /* AnnouncementExpandedView.swift in Sources */,
+				EA50308E215E2C2200438B31 /* CampaignsManager.swift in Sources */,
+				EA50308F215E2C2200438B31 /* EnrichedConversation.swift in Sources */,
+				EA503090215E2C2200438B31 /* NewMessageView.swift in Sources */,
+				EA503091215E2C2200438B31 /* Embed.swift in Sources */,
+				EA503092215E2C2200438B31 /* Channel.swift in Sources */,
+				EA503093215E2C2200438B31 /* DriftDateTransformer.swift in Sources */,
+				EA503094215E2C2200438B31 /* CampaignMessage.swift in Sources */,
+				EA503095215E2C2200438B31 /* Response.swift in Sources */,
+				EA503096215E2C2200438B31 /* AnnouncementView.swift in Sources */,
+				EA503097215E2C2200438B31 /* Context.swift in Sources */,
+				EA503098215E2C2200438B31 /* ConversationListTableViewCell.swift in Sources */,
+				EA503099215E2C2200438B31 /* GradientView.swift in Sources */,
+				EA50309A215E2C2200438B31 /* AvatarImage.swift in Sources */,
+				EA50309B215E2C2200438B31 /* ConversationMessageTableViewCell.swift in Sources */,
+				EA50309C215E2C2200438B31 /* MeetingMessageTableViewCell.swift in Sources */,
+				EA50309D215E2C2200438B31 /* Conversation.swift in Sources */,
+				EA50309E215E2C2200438B31 /* Drift.swift in Sources */,
+				EA50309F215E2C2200438B31 /* Campaign.swift in Sources */,
+				EA5030A0215E2C2200438B31 /* OpenHoursHelpers.swift in Sources */,
+				EA5030A1215E2C2200438B31 /* SocketAuth.swift in Sources */,
+				EA5030A2215E2C2200438B31 /* CampaignView.swift in Sources */,
+				EA5030A3215E2C2200438B31 /* ConversationInputTextView.swift in Sources */,
+				EA5030A4215E2C2200438B31 /* ColorPalette.swift in Sources */,
+				EA5030A5215E2C2200438B31 /* ErrorManager.swift in Sources */,
+				EA5030A6215E2C2200438B31 /* DriftPreviewItem.swift in Sources */,
+				EA5030A7215E2C2200438B31 /* DriftAPIURLRouter.swift in Sources */,
+				EA5030A8215E2C2200438B31 /* AttachmentCollectionViewCell.swift in Sources */,
+				EA5030A9215E2C2200438B31 /* CTA.swift in Sources */,
+				EA5030AA215E2C2200438B31 /* ScheduleMeetingViewController.swift in Sources */,
+				EA5030AB215E2C2200438B31 /* UserAvailability.swift in Sources */,
+				EA5030AC215E2C2200438B31 /* TopController.swift in Sources */,
+				EA5030AD215E2C2200438B31 /* TextHelper.swift in Sources */,
+				EA5030AE215E2C2200438B31 /* InboxManager.swift in Sources */,
+				EA5030AF215E2C2200438B31 /* DriftManager.swift in Sources */,
+				EA5030B0215E2C2200438B31 /* Auth.swift in Sources */,
+				EA5030B1215E2C2200438B31 /* MessageRequest.swift in Sources */,
+				EA5030B2215E2C2200438B31 /* ConversationsManager.swift in Sources */,
+				EA5030B3215E2C2200438B31 /* UserManager.swift in Sources */,
+				EA5030B4215E2C2200438B31 /* AppointmentInformation.swift in Sources */,
+				EA5030B5215E2C2200438B31 /* DriftDataStore.swift in Sources */,
+				EA5030B6215E2C2200438B31 /* Presence.swift in Sources */,
+				EA5030B7215E2C2200438B31 /* Message.swift in Sources */,
+				EA5030B8215E2C2200438B31 /* NibLoader.swift in Sources */,
+				EA5030B9215E2C2200438B31 /* Socket.swift in Sources */,
+				EA5030BA215E2C2200438B31 /* PresentationManager.swift in Sources */,
+				EA5030BB215E2C2200438B31 /* PreMessage.swift in Sources */,
+				EA5030BC215E2C2200438B31 /* UIDevice+ModelName.swift in Sources */,
+				EA5030BD215E2C2200438B31 /* ConnectionBarView.swift in Sources */,
+				EA5030BE215E2C2200438B31 /* ConversationEmptyStateView.swift in Sources */,
+				EA5030BF215E2C2200438B31 /* AnnouncementAttributes.swift in Sources */,
+				EA5030C0215E2C2200438B31 /* MessageTableHeaderView.swift in Sources */,
+				EA5030C1215E2C2200438B31 /* DriftDateFormatter.swift in Sources */,
+				EA5030C2215E2C2200438B31 /* Attachment.swift in Sources */,
+				EA5030C3215E2C2200438B31 /* User.swift in Sources */,
+				EA5030C4215E2C2200438B31 /* ReachabilityManager.swift in Sources */,
+				EA5030C5215E2C2200438B31 /* GoogleMeeting.swift in Sources */,
+				EA5030C6215E2C2200438B31 /* ConversationInputAccessoryView.swift in Sources */,
+				EA5030C7215E2C2200438B31 /* DriftAPIManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -799,6 +1102,11 @@
 			isa = PBXTargetDependency;
 			target = 634950D31C511A410097C474 /* Drift-SDK */;
 			targetProxy = 634950E01C511A410097C474 /* PBXContainerItemProxy */;
+		};
+		EA5030E5215E2C3100438B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA503080215E2C2200438B31 /* Drift */;
+			targetProxy = EA5030E4215E2C3100438B31 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1018,6 +1326,81 @@
 			};
 			name = Release;
 		};
+		EA50307A215E2BE700438B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LD58S2TL7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA50307B215E2BE700438B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LD58S2TL7;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA5030E0215E2C2200438B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C22BE29447B902070F10D55 /* Pods-Drift-SDK.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherit)";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/releases-ios",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireImage",
+				);
+				INFOPLIST_FILE = "Drift-SDK copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Drift-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		EA5030E1215E2C2200438B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F7B8686E6ADBA835CE5CB39 /* Pods-Drift-SDK.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherit)";
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(PROJECT_DIR)/Carthage/Checkouts/releases-ios",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AlamofireImage",
+				);
+				INFOPLIST_FILE = "Drift-SDK copy-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.drift.Drift-SDK";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1044,6 +1427,24 @@
 			buildConfigurations = (
 				634950EC1C511A410097C474 /* Debug */,
 				634950ED1C511A410097C474 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA50307C215E2BE700438B31 /* Build configuration list for PBXAggregateTarget "Drift-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA50307A215E2BE700438B31 /* Debug */,
+				EA50307B215E2BE700438B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5030DF215E2C2200438B31 /* Build configuration list for PBXNativeTarget "Drift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5030E0215E2C2200438B31 /* Debug */,
+				EA5030E1215E2C2200438B31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
